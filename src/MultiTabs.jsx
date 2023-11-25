@@ -29,13 +29,13 @@ export default function MultiTabs() {
           onSelect={onSelect}
           className="mb-3"
         >
-          <Tab eventKey="0" title="Home" >
+          <Tab eventKey="0" title="Basic" >
             <MultiStepper  />
           </Tab>
-          <Tab eventKey="1" title="Profile">
+          <Tab eventKey="1" title="Employee">
             <MultiStepper1 />
           </Tab>
-          <Tab eventKey="2" title="Contact">
+          <Tab eventKey="2" title="Customer">
             <MultiStepper2 />
           </Tab>
         </Tabs>

@@ -54,7 +54,7 @@ const steps = ['Basic Info', 'Contact Info', 'Address Info'];
       
         dispatch(activeTab(1)) 
         dispatch(activeStep(0))  
-        toast.success("Successfully Complete Tab1")  
+        toast.success("Successfully Added Basic Info")  
     }else{
       toast.error("Please fill the fields ")      
   }

@@ -9,7 +9,7 @@ import { toast } from 'react-toastify';
 import { useDispatch, useSelector } from 'react-redux';
 import { activeTab, activeStep, empDetails, teamLeader, leaveRequest } from './redux/action';
 
-const steps = ['Basic Info', 'Contact Info', 'Address Info'];
+const steps = ['Employee', 'Team Leader', 'Leave Request'];
 
 
  const MultiStepper1=()=> {
@@ -54,7 +54,7 @@ const steps = ['Basic Info', 'Contact Info', 'Address Info'];
       dispatch(activeTab(2)) 
       dispatch(leaveRequest(data))
       dispatch(activeStep(0))  
-      toast.success("successfully added Tab2")
+      toast.success("successfully Added Employee Info")
     }else{
       toast.error("Please fill the fields ")      
     }

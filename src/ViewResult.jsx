@@ -22,44 +22,44 @@ const ViewResult = () => {
                         <h5 className='text-info text-center mt-3'>Basic Detail</h5>
                         <Row>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'> First Name:</p> {state.first_name}
+                          <span className='text-secondary fw-bold'> First Name:</span> {state.first_name}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Last Name: </p> {state.last_name}
+                          <span className='text-secondary fw-bold'>Last Name: </span> {state.last_name}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Age: </p>{state.age}
+                          <span className='text-secondary fw-bold'>Age: </span>{state.age}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'> Gender: </p> {state.gender}
-                          </Col>
-
-                          <Col md={4}>
-                          <p className='text-secondary fw-bold'> Email : </p> {state.email}
+                          <span className='text-secondary fw-bold'> Gender: </span> {state.gender}
                           </Col>
 
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'> Phone No : </p> {state.phone_number}
+                          <span className='text-secondary fw-bold'> Email : </span> {state.email}
+                          </Col>
+
+                          <Col md={4}>
+                          <span className='text-secondary fw-bold'> Phone No : </span> {state.phone_number}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Date : </p> {state.date}
+                          <span className='text-secondary fw-bold'>Date : </span> {state.date}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Address :</p> {state.address}
+                          <span className='text-secondary fw-bold'>Address :</span> {state.address}
                           </Col> 
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>City : </p> {state.city}
+                          <span className='text-secondary fw-bold'>City : </span> {state.city}
                           </Col>
 
 
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>State :</p> {state.state}
+                          <span className='text-secondary fw-bold'>State :</span> {state.state}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>PinCode : </p> {state.pincode}
+                          <span className='text-secondary fw-bold'>PinCode : </span> {state.pincode}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>National : </p> {state.national}
+                          <span className='text-secondary fw-bold'>National : </span> {state.national}
                           </Col> 
                         </Row>
                       </Col>
@@ -67,36 +67,36 @@ const ViewResult = () => {
                         <h5 className='text-info text-center mt-3'>Employee Info</h5>
                         <Row>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Emp first name :</p> {state.emp_first_name}
+                          <span className='text-secondary fw-bold'>Emp first name :</span> {state.emp_first_name}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Emp Last Name :</p> {state.emp_last_name}
+                          <span className='text-secondary fw-bold'>Emp Last Name :</span> {state.emp_last_name}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Emp id : </p> {state.employeeid}
+                          <span className='text-secondary fw-bold'>Emp id : </span> {state.employeeid}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Emp phone no : </p> {state.emp_phone_no}
+                          <span className='text-secondary fw-bold'>Emp phone no : </span> {state.emp_phone_no}
                           </Col>
                           
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>position : </p> {state.position}
+                          <span className='text-secondary fw-bold'>position : </span> {state.position}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Team name : </p> {state.tlname}
+                          <span className='text-secondary fw-bold'>Team name : </span> {state.tlname}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>TeamLeader Email id :</p> {state.tlemailid}
+                          <span className='text-secondary fw-bold'>TeamLeader Email id :</span> {state.tlemailid}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>leave type :</p> {state.leave_type}
+                          <span className='text-secondary fw-bold'>leave type :</span> {state.leave_type}
                           </Col>
 
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>leave start date : </p> {state.leave_start_date}
+                          <span className='text-secondary fw-bold'>leave start date : </span> {state.leave_start_date}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>leave end date :</p> {state.leave_end_date}
+                          <span className='text-secondary fw-bold'>leave end date :</span> {state.leave_end_date}
                           </Col>
                         </Row>
                       </Col>
@@ -105,50 +105,50 @@ const ViewResult = () => {
                         <Row>   
                           
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Customer first name : </p> {state.cus_first_name}
+                          <span className='text-secondary fw-bold'>Customer first name : </span> {state.cus_first_name}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Customer last name :</p> {state.cus_last_name}
+                          <span className='text-secondary fw-bold'>Customer last name :</span> {state.cus_last_name}
                           </Col>
 
 
                           
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Customer address :</p> {state.cus_address}
+                          <span className='text-secondary fw-bold'>Customer address :</span> {state.cus_address}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Customer city : </p>{state.cus_city}
+                          <span className='text-secondary fw-bold'>Customer city : </span>{state.cus_city}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Customer state :</p> {state.cus_state}
+                          <span className='text-secondary fw-bold'>Customer state :</span> {state.cus_state}
                           </Col>
                           <Col md={4}>
-                              <p className='text-secondary fw-bold'>    Customer pincode : </p> {state.cus_pincode}
+                              <span className='text-secondary fw-bold'>    Customer pincode : </span> {state.cus_pincode}
                           </Col>
 
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Customer Phone No : </p> {state.cus_phone_no}
+                          <span className='text-secondary fw-bold'>Customer Phone No : </span> {state.cus_phone_no}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>      Customer email : </p> {state.cus_email}
+                          <span className='text-secondary fw-bold'>      Customer email : </span> {state.cus_email}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Customer arrival date : </p> {state.cus_arr_date}
+                          <span className='text-secondary fw-bold'>Customer arrival date : </span> {state.cus_arr_date}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Customer depture date : </p>{state.cus_dep_date}
+                          <span className='text-secondary fw-bold'>Customer depture date : </span>{state.cus_dep_date}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Customer Comment : </p>{state.cus_comment}
+                          <span className='text-secondary fw-bold'>Customer Comment : </span>{state.cus_comment}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Customer Adult : </p>{state.cus_adults}
+                          <span className='text-secondary fw-bold'>Customer Adult : </span>{state.cus_adults}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Customer Child : </p> {state.cus_childs}
+                          <span className='text-secondary fw-bold'>Customer Child : </span> {state.cus_childs}
                           </Col>
                           <Col md={4}>
-                          <p className='text-secondary fw-bold'>Payment Type : </p> {state.payment_type}
+                          <span className='text-secondary fw-bold'>Payment Type : </span> {state.payment_type}
                           </Col>
                         </Row>
                       </Col>
